@@ -13,7 +13,7 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - run: echo "Hello world"
+      - run: ls
       - uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}

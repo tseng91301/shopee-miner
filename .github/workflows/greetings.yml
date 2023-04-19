@@ -13,4 +13,4 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-      - run: echo "Hello world"
+      - run: echo "? Hello world"
